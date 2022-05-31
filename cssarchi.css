@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@600&family=Roboto:wght@300&display=swap');
+
+.nav-link {
+    color: black;
+    ;
+}
+
+.saut {
+    margin-top: 20px;
+}
+
+.saut_grand {
+    margin-top: 40px;
+}
+
+.saut_tres_grand {
+    margin-top: 60px;
+}
+
+.saut_petit {
+    margin-top: 10px;
+}
+
+.petit_saut {
+    margin-top: 5px;
+}
+
+body {
+    margin: 20px;
+}
+
+.card-img-top:hover {
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    -webkit-transform: scale(1.05);
+    /* Safari 3-8 */
+    transform: scale(1.05);
+}
+
+.carousel-inner {
+    width: 30%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    margin-top: 40px;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+}
+
+.main .low-section {
+    background-color: rgba(128, 128, 128, 0.2);
+    text-align: left;
+    padding: 60px;
+    color: black;
+    margin: 30px;
+}
+
+.proprietaire {
+    text-align: center;
+}
+
+.saut_proprietaire {
+    margin-top: 80px;
+}
+
+.localisation {
+    text-align: center;
+}
+
+.img-responsive {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.img-responsive:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.trait_dessus {
+    border-top: 4px solid #000;
+    width: 40px;
+}
+
+#chargement {
+    border: 12px solid #000;
+    border-radius: 50%;
+    border-top: 12px solid #DDD;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#site-content {
+	min-height: 100%;
+	min-height: 100vh;
+	padding-top: 65px;
+	position: relative;
+	z-index: 1;
+
+	-webkit-box-shadow: #000 0 7px 35px 0;
+	-moz-box-shadow: #000 0 7px 35px 0;
+	box-shadow: #000 0 7px 35px 0;
+  
+}
+
+#site-footer {
+	padding: 25px 0;
+	font-size: 85%;
+	background-color: #2A2A2A;
+	position: fixed;
+	z-index: -1;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+
+
+
+
+
